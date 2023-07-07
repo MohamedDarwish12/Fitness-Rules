@@ -1,0 +1,174 @@
+body {
+    background-color: #bbd8da;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: "Sans Serif";
+    color: #619196;
+    padding: 0;
+}
+
+footer {
+    color: #84b4c8;
+    text-align: center;
+    font-family: "Courier New";
+    width: 100%;
+    padding-bottom: 0;
+    bottom: 0;
+    position: relative;
+}
+
+p {
+    font-family: "Sans Serif";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+/* index start here */
+.header {
+    font-size: 70px;
+    font-family: "Sans Serif";
+    color: #619196;
+    text-align: left;
+}
+/* index ends here */
+/*horizontal nav starts here*/
+.nav {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8a50;
+}
+
+    .nav a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav a:hover {
+        background-color: #dfc7c1;
+    }
+
+.active_nav {
+    background-color: #dfc7c1;
+}
+/*nav ends here*/
+/*vertical nav starts here*/
+/*
+.ver_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: rgb(42, 93, 170);
+  color: rgb(255, 255, 255);
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 700px;
+  overflow: auto;
+}*/
+/*vertical nav ends here*/
+span {
+    font-style: italic;
+}
+
+table {
+    font-size: 15px;
+    color: black;
+}
+.page_heading {
+    font-size: 70px;
+    text-align: center;
+}
+
+.body {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #dfc7c1;
+    text-align: left;
+    font-family: "Courier New", monospace;
+}
+
+.content_heading {
+    font-size: 30px;
+}
+
+.img {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+    object-fit: scale-down;
+}
+
+.content {
+    padding: 10px;
+}
+
+.footer {
+    color: #84b4c8;
+    text-align: center;
+    font-family: "Courier New";
+    width: 100%;
+    bottom: 0;
+}
+.logo {
+    float:right;
+    width: 70px;
+    height: 70px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+  #ulist {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+
+.img3 {
+   float: right; 
+}
